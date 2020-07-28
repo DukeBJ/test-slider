@@ -3,10 +3,10 @@ const browserSync = require('browser-sync').create();
 const watch = require('gulp-watch');
 const sass = require('gulp-sass');
 
-gulp.task('scss', function(callback) {
-    return gulp.src('./src/sass/main.sass')
+gulp.task('sass', function(callback) {
+    return gulp.src('./src/sass/**/*.scss')
         .pipe(sass())
-        .pipe( gulp.dest('./app/css/') )
+        .pipe( gulp.dest('./app/css/') );
     callback();
 });
 
