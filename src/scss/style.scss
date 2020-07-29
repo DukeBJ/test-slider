@@ -1,0 +1,13 @@
+@import "_variable/variable";
+
+@import "node_modules/swiper/swiper.scss";
+@import "node_modules/swiper/components/navigation/navigation.scss";
+@import "node_modules/swiper/components/pagination/pagination.scss";
+
+body {
+    color: $color;
+    background-color: rgb(255, 228, 196);
+    //border: 5px solid red;
+    display: block;
+    transition: all 0.3s ease-in;   
+}
